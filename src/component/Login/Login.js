@@ -6,7 +6,9 @@ const Login = () => {
 	const navigate = useNavigate();
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
-	const Login = () => {};
+	const Login = () => {
+		console.log(email,password)
+	};
 	// {TODO: Setup firebase for login and store login data in redux}
 	return (
 		<div className='login'>
@@ -21,7 +23,7 @@ const Login = () => {
 				<div className='login__button'>
 					<button
 						onClick={() => {
-							console.log('btn');
+							login()
 						}}
 					>
 						Login
