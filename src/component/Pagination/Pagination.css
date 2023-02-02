@@ -1,0 +1,25 @@
+.pagination_main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 4px 0px;
+}
+
+
+
+.pagination >li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.pagination>li:hover{
+    cursor: pointer;
+}
+
+.active{
+    text-decoration: underline;
+    font-size: large;
+}

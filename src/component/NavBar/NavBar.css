@@ -1,0 +1,29 @@
+.nav {
+    color: white;
+    display: flex;
+    font-size: 15px;
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 40px;
+  }
+  
+  .nav > a {
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: transform 50ms ease-out;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav > a:hover {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  
+  .nav::-webkit-scrollbar {
+    display: none;
+  }
+  

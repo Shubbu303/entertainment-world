@@ -1,0 +1,6 @@
+/* to make the cards responsive */
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
