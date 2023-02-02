@@ -21,7 +21,7 @@ const Login = () => {
 				<div className='login__button'>
 					<button
 						onClick={() => {
-							console.log('btn');
+							login()
 						}}
 					>
 						Login
