@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import './Login.css';
 const Login = () => {
 	const navigate = useNavigate();
-	const [password, setPassword] = useState();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 	// {TODO: Setup firebase for login and store login data in redux}
 	return (
 		<div className='login'>
